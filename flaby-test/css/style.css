@@ -1,0 +1,370 @@
+body{
+   box-sizing: border-box;
+}
+.header{
+   background-image: url(../img/header.jpg);
+   width: 100%;
+   background-repeat: no-repeat;
+   padding-top: 60px;
+  background-position: center;
+}
+ul, li {
+   display: block;
+   padding: 0;
+   margin: 0;
+}
+.offer__title {
+   font-size:40px ;
+   font-weight: 400;
+   text-transform: uppercase;
+   font-family: 'Raleway', sans-serif; ;
+   color: #fffefe;
+}
+h1{
+   color: #494949;
+font-family: "Raleway";
+font-size: 32px;
+font-weight: 700;
+}
+h2{
+   font-size: 24px;
+   color: #494949;
+   text-transform: uppercase;
+   font-family: 'Roboto Slab', serif;
+   font-weight: 700;
+   letter-spacing: 2.4px;
+}
+h3{
+color: #494949;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+}
+h4{
+   color: #7c7c7c;
+font-family: 'Raleway';
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+}
+h6{
+   color: #7c7c7c;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 26px
+} 
+/*    all  buttons*/
+
+
+/*    header */
+ .menu__item a {
+   font-size: 17px ;
+   font-weight: 400;
+   font-family: 'Raleway', sans-serif;
+   text-transform: uppercase;
+   color: #fff;
+   line-height: 60px;
+   margin: 0 10px;
+}
+
+.btn {
+   width: 110px;
+   height: 55px;
+   background-color:#2f82c2;
+   text-transform: uppercase;
+   line-height: 40px;
+   margin-left: 40px;
+}
+.text-button{
+   color: #fff;
+   font-size: 17px;
+}
+.line-menu{
+   background-color: #fff;
+}
+    
+.offer{
+   width: 500px;
+   padding-top: 263px;
+}
+.offer__modern{
+   color: #fffefe;
+   font-family: Raleway;
+font-size: 26px;
+font-weight: 500;
+line-height: 40px;
+}
+.flabby-buttons{
+ margin-left: -8px;
+ padding-top: 70px;
+ padding-bottom: 86px;
+}
+.flabby-buttons button {
+   background-color: #4894ce;
+   border-radius: 10px;
+   color: white;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 40px;
+   border: 0px;
+   padding: 0px 64px;
+   display: block;
+   margin-bottom: 105px;
+   padding-top: 20px;
+   padding-bottom: 24px;
+}
+
+/*   servises   */
+.welcom-to {
+   text-align: center;
+   margin-top: 57px;
+}
+.our{
+   /* Style for "dividor" */
+width: 30px;
+height: 2px;
+background-color: #2eb0ec;
+margin-bottom: 50px;
+}
+.welcom{
+   color: #7c7c7c;
+   font-family: 'Roboto Slab', serif;
+   font-size: 18px;
+   line-height: 2px;
+   
+}
+.cart{
+  text-align: center;
+}
+
+.cart img{
+   padding-bottom: 45px;
+   height:106px ;
+}
+/* customizer-features           */
+
+.customizer-features {
+   background-image: url(../img/background2.jpg);
+   background-repeat: no-repeat;
+   height: auto;
+   margin-top: 169px;
+   width: 100%;
+   background-position: center;
+   padding: 118px 0px;
+}
+.unlimited-customizer{
+   margin-top: 139px;
+}
+
+.slider{
+   margin-top: 67px;
+}
+h6 .fa{
+  margin-right: 18px;
+  color: #66d4f4;
+}
+
+.btn-uni{
+  /* Style for "Button Bg" */
+width: 150px;
+height: 50px;
+box-shadow: 0 10px 16px rgba(102, 212, 244, 0.3);
+border-radius: 25px;
+background-color: #66d4f4;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1.4px;
+color:#fff ;
+border-color: #66d4f4;
+border: none;
+}
+.btn-uni:hover{
+   border: none;
+   background-color: rgb(39, 186, 231);
+
+}
+.btn-uni:focus{
+   outline: none;
+   
+}
+.btn-read{
+   margin-top: 50px ;
+}
+ /*  other servises */
+
+.other__icon{
+   width: 35px;
+height: 42px;
+margin-right: 20px;
+}
+.other-cart{
+   margin-bottom: 112px ;
+}
+
+     /*  customer-say      */
+.customer-say{
+   background-image: url(../img/customer-bcgr.jpg);
+   background-repeat: no-repeat;
+   height: 800px;
+   
+}
+.slide1{
+   max-width: 100%;
+   height: auto;
+   
+}
+.profil{
+text-align: center;
+}
+.next-blogum{
+   text-align: center;
+}
+
+.next__text{
+   color: #494949;
+   font-family: "Raleway";
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 15px;
+   margin-right: 13px;
+}
+.next__text:hover{
+   text-decoration: none;
+   color: chocolate;
+}
+
+  /*         great-resourse  */
+.great-resourse{
+   margin-bottom: 50px;
+   padding-top: 130px;
+}
+.great-customizer{
+   width: 443px ;
+   margin-bottom: 80px;
+}
+.cont{
+   margin-top: 35px ;
+}
+.mockup{
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+ /*         prising-plan  */
+.prising-plan{
+background-image: url(../img/plan-background.jpg);
+background-size: cover;
+text-align: center;
+
+} 
+
+.price-block{
+   background-color: #fff;
+   border-radius: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.04);
+   box-shadow: 0 0 51px rgba(92, 149, 161, 0.33);
+   text-align: center;
+   max-width: 320px ;
+   padding-top: 46px;
+   padding-bottom: 46px ;
+   margin-top: 90px;
+   margin-bottom: 150px;
+   
+}
+.price-block:hover{
+margin-top: 50px ;
+max-width: 340px;
+}
+.studend{
+   margin-top:59px ;
+}
+.img39{
+   margin-left: 25px;
+   margin-bottom: 45px;
+   margin-top: 10px;
+}
+
+/*        subscrise-now     */
+.subscrise-now{
+   height: auto;
+   padding-bottom:80px ;
+}
+.form{
+   text-align: center;
+   margin: 15px 0px;
+}
+.name, .email, .btn-fo{
+   margin: 26px 0px;
+}
+input{
+   width: 370px;
+   height: 75px;
+   border-radius: 38px;
+   box-shadow: 0 8px 16px rgba(92, 149, 161, 0.07);
+   background-color: #dee6e6;
+   border: none;
+   outline: none;
+   text-align: center;
+}
+input:hover{
+   outline: none;
+   border: none;
+}
+.btn-form{
+width: 370px;
+height: 75px;
+box-shadow: 0 10px 16px rgba(102, 212, 244, 0.3);
+border-radius: 38px;
+background-color: #66d4f4;
+font-family: 'Raleway';
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1.47px;
+color:#fff ;
+border-color: #66d4f4;
+border: none;
+margin-top: 5px;
+}
+.btn-form:hover{
+   border: none;
+   background-color: rgb(39, 186, 231);
+}
+.btn-form:focus{
+   outline: none;
+} 
+
+/*   footer   */
+.footer{
+   height: auto;
+   padding-bottom:50px;
+}
+.footer-line{
+height: 1px;
+}
+.footer-menu{
+   margin: 40px 0px;
+   
+   height: auto;
+}
+.icons__item{
+   margin-right: 5px;
+   font-size: 30px;
+   
+}
+.facebook{
+   color: #3b579d;
+   font-size: 25px;
+}
+.google{
+color:#da4835;
+}
+.copyriht{
+   color: #7c7c7c;
+font-size: 18px;
+font-family: 'Raleway';
+}
